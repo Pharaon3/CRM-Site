@@ -186,39 +186,66 @@ td {
     <div class="titleBar">
       <p class="crmSystme">CRM SYSTEM <?php echo "J"; ?> </p>
     </div>
-    <div id="main_content" style="">
+    <div id="main_content">
       <div class="date">
         <?php echo "23 OCT 2022 - MONDAY"; ?>
       </div>
       <div class="div_divider"></div>
-      <div class="dashboard" style="font-size: 24px;
-                font-weight: bold;
-                margin-top: 4px;">
+      <div class="dashboard">
         DASHBOARD
       </div>
-      <div>
-        <div id="topTables">
-          <div>
-            1-1 table
-          </div>
-          <div>
-            1-2 table
-          </div>
-          <div>
-            1-3 table
-          </div>
-        </div>
-        <div id="bottomTables">
-          <div>
-            2-1 table
-          </div>
-          <div>
-            2-2 table
-          </div>
-          <div>
-            2-3 table
-          </div>
-        </div>
+      <div style="margin-left: 40px">
+        <table>
+          <thead></thead>
+          <tbody>
+            <tr>
+              <td>
+                <div class="viewTable">
+                  <div style="width: 100%; display: flex; text-align: center; height: 30px;">
+                    <div
+                      style="background-color: grey; color: white; width: 70%; float: left;display: flex;align-items: center; border-style: solid;border-width: 0px;border-top-left-radius: 10px;">
+                      <p style="margin: 0px; width: 100%;">RECENT CUSTOMER QUOTATIONS</p>
+                    </div>
+                    <div
+                      style="background-color: black; color: white; width: 30%; float: right; display: flex;align-items: center; border-style: solid;border-width: 0px;border-top-right-radius: 10px;">
+                      <p style="margin: 0px; width: 100%;">VIEW ALL</p>
+                    </div>
+                  </div>
+                  <div style="width: 100%;">
+
+                  </div>
+                </div>
+              </td>
+              <td>
+                <div style="background-color: tomato;">
+                  1-2
+                </div>
+              </td>
+              <td>
+                <div style="background-color: tomato;">
+                  1-3
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div style="background-color: tomato;">
+                  2-1
+                </div>
+              </td>
+              <td>
+                <div style="background-color: tomato;">
+                  2-2
+                </div>
+              </td>
+              <td>
+                <div style="background-color: tomato;">
+                  2-3
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
     </div>
 

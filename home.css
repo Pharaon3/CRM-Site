@@ -2,7 +2,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   color: white;
-  padding-right: 30px;
+  padding-right: 40px;
   font-size: 20px;
 }
 .date{
@@ -13,7 +13,7 @@
 .div_divider{
 	height: 0.1px;
   background-color: #d3d0d0;
-  width: 96%;
+  width: 94%;
   padding: 1px;
   margin: auto;
 }
@@ -21,10 +21,24 @@
   margin-left: 40px;
   font-size: 24px;
   font-weight: bold;
+  margin-top: 4px;
 }
 .titleBar{
   background-color: #F06811;
   height: 50px; 
   line-height: 50px;
   text-align: right;
+}
+td {
+  padding: 20px;
+}
+table {
+  width: 100%;
+}
+.viewTable {
+  border-radius: 10px;
+  border-width: 1px;
+  border-color: black;
+  height: 200px;
+  border-style: solid;
 }
