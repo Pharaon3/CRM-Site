@@ -1,0 +1,30 @@
+.crmSystme {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  padding-right: 30px;
+  font-size: 20px;
+}
+.date{
+  margin-left: 40px;
+  font-size: 36px;
+  font-weight: bold;
+}
+.div_divider{
+	height: 0.1px;
+  background-color: #d3d0d0;
+  width: 96%;
+  padding: 1px;
+  margin: auto;
+}
+.dashboard{
+  margin-left: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.titleBar{
+  background-color: #F06811;
+  height: 50px; 
+  line-height: 50px;
+  text-align: right;
+}
