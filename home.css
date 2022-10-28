@@ -1,9 +1,8 @@
 .crmSystme {
-  margin-top: 0px;
-  margin-bottom: 0px;
   color: white;
   padding-right: 40px;
-  font-size: 20px;
+  font-size: 28px;
+  float: right;
 }
 .date{
   margin-left: 40px;
@@ -25,9 +24,9 @@
 }
 .titleBar{
   background-color: #F06811;
-  height: 50px; 
-  line-height: 50px;
-  text-align: right;
+  height: 39px;
+  line-height: 39px;
+  display: flex;
 }
 .viewTable {
   border-radius: 10px;

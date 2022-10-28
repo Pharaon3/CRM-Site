@@ -184,7 +184,11 @@ $r = mysqli_query($sql_conn, $sql);
   ?>
     <div style="max-width:100%; margin-left:auto; margin-right:auto">
       <div class="titleBar">
-        <p class="crmSystme">CRM SYSTEM <?php echo "J"; ?> </p>
+        <div class="crmSystme">CRM SYSTEM </div>
+        <div style='border-radius: 28px;background-color: white;color: #DB5E19;width: 28px;height: 28px;'>
+            <p style = 'font-size: 14px; margin: 0px;'> P </p>
+          </div>
+        </div>
       </div>
       <div id="main_content">
         <div class="date">
