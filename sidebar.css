@@ -386,3 +386,29 @@ body{
 .no_b {font-weight: normal;}
 .do_i {font-style: italic;}
 .grey_line{border-top: 1px solid #DDD;}
+
+.roundNewButton{
+	border-width: 1px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 14px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 178px;
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	height: 23px;
+	font-size: 14px;
+	/*font-family: Helvetica Neue, Regular;*/
+	
+}
+.sideItem{
+	font-size: 14px;
+    margin: 10px;
+}
+.sideItemA{
+	color: white;
+    text-decoration: blink;
+}

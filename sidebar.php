@@ -6,6 +6,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>CRM System</title>
   <link href="adminstyle.css" rel="stylesheet" type="text/css">
+  <link href="sidebar.css" rel="stylesheet" type="text/css">
   <!-- favicon icon -->
   <link rel="icon" type="image/png" href="http://www.solarprimeg.co.za/images/favicon.png">
   <link rel="icon" type="image/jpeg" href="http://www.solarprimeg.co.za/images/favicon.jpg">
@@ -19,29 +20,18 @@
 
   <div>
     <div
-      style=" width: 200px; float: left; padding-top: 10px; background-color: #333; color: white;  padding: 2px; position: absolute; height: 100%;">
+      style=" width: 220px; float: left; padding-top: 5px; background-color: #606060; color: white;  padding: 2px; position: absolute; height: 100%;">
       <div>
-        <div style=" text-align: center; margin-top: 10px;">
-          <img src="images/logo.jpg" alt="logo" height="77" style="border-radius: 50%;">
+        <div style=" text-align: center; margin-top: 5px;">
+          <img src="images/logo.jpg" alt="logo" height="77" style="border-radius: 50%; width: 102px; height: 102px;">
         </div>
-        <div style="text-align:center; align-items: center;">
-          <p style="border-width: 1px;
-                    padding: 5px;
-                    border-color: white;
-                    border-style: solid;
-                    border-radius: 14px;
-                    padding-left: 10px;
-                    padding-right: 10px;
-                    width: 140px;
-                    align-items: center;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                    height: 14px;">
-            + NEW </p>
+        <div style="text-align:center; align-items: center;margin-top: 13px;">
+          <div class="roundNewButton">
+            <p style=" margin: 0px; margin-top: 3px; "> + NEW </p> 
+          </div>
         </div>
       </div>
-      <div style="margin-left: 20px">
+      <div>
         <?php
         if ($_SESSION['UserName'] == 'Borwood') {
           echo
@@ -49,17 +39,19 @@
 				  <div><div class='div_divider'></div></div>";
         } else {
         ?>
-        <div><a>Menu</a></div>
+        <div style="margin-top: 20px;
+                    font-size: 18px;
+                    margin-left: 19px;"><a>MENU</a></div>
         <div></div>
-        <div><a href="home.php" style="color: white">Dashboard</a></div>
-        <div><a href="products.php" style="color: white">Products</a></div>
-        <div><a href="customerJobCard.php" style="color: white">Customer Job Card</a></div>
-        <div><a href="customerServices.php" style="color: white">Customer Services</a></div>
-        <div><a href="breakdown.php" style="color: white">Breakdown / Call-Out</a></div>
-        <div><a href="contactus_view.php" style="color: white">Mail Customers</a></div>
-        <div><a href="serviceReminderHistory.php" style="color: white">Service Reminder History</a></div>
-        <div><a href="users.php" style="color: white">Users</a></div>
-        <div><a href="logHistory.php" style="color: white">Log History</a></div>
+        <div class="sideItem"><a href="home.php" class="sideItemA">Dashboard</a></div>
+        <div class="sideItem"><a href="products.php" class="sideItemA">Products</a></div>
+        <div class="sideItem"><a href="customerJobCard.php" class="sideItemA">Customer Job Card</a></div>
+        <div class="sideItem"><a href="customerServices.php" class="sideItemA">Customer Services</a></div>
+        <div class="sideItem"><a href="breakdown.php" class="sideItemA">Breakdown / Call-Out</a></div>
+        <div class="sideItem"><a href="contactus_view.php" class="sideItemA">Mail Customers</a></div>
+        <div class="sideItem"><a href="serviceReminderHistory.php" class="sideItemA">Service Reminder History</a></div>
+        <div class="sideItem"><a href="users.php" class="sideItemA">Users</a></div>
+        <div class="sideItem"><a href="logHistory.php" class="sideItemA">Log History</a></div>
         <?php } ?>
       </div>
     </div>
