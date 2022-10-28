@@ -40,18 +40,108 @@
         } else {
         ?>
         <div style="margin-top: 20px;
-                    font-size: 18px;
+                    font-size: 14px;
                     margin-left: 19px;"><a>MENU</a></div>
-        <div></div>
-        <div class="sideItem"><a href="home.php" class="sideItemA">Dashboard</a></div>
-        <div class="sideItem"><a href="products.php" class="sideItemA">Products</a></div>
-        <div class="sideItem"><a href="customerJobCard.php" class="sideItemA">Customer Job Card</a></div>
-        <div class="sideItem"><a href="customerServices.php" class="sideItemA">Customer Services</a></div>
-        <div class="sideItem"><a href="breakdown.php" class="sideItemA">Breakdown / Call-Out</a></div>
-        <div class="sideItem"><a href="contactus_view.php" class="sideItemA">Mail Customers</a></div>
-        <div class="sideItem"><a href="serviceReminderHistory.php" class="sideItemA">Service Reminder History</a></div>
-        <div class="sideItem"><a href="users.php" class="sideItemA">Users</a></div>
-        <div class="sideItem"><a href="logHistory.php" class="sideItemA">Log History</a></div>
+        <div style="height: 21px;"></div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="home.php" class="sideItemA">Dashboard</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="products.php" class="sideItemA">Products</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="customerJobCard.php" class="sideItemA">Customer Job Card</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="customerServices.php" class="sideItemA">Customer Services</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="breakdown.php" class="sideItemA">Breakdown / Call-Out</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="contactus_view.php" class="sideItemA">Mail Customers</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="serviceReminderHistory.php" class="sideItemA">Service Reminder History</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="users.php" class="sideItemA">Users</a>
+          </div>
+        </div>
+        <div class="sideItem">
+          <div style = "background-color: #DB5E19; width: 7px; height: 100%;">
+
+          </div>
+          <div style="margin-left: 12px;">
+            <img src="images/clipboard_icon-icons.com_50424.png" style="width: 14px; height: 16px;" >
+          </div>
+          <div style=" margin-left: 10px;">
+            <a href="logHistory.php" class="sideItemA">Log History</a>
+          </div>
+        </div>
         <?php } ?>
       </div>
     </div>

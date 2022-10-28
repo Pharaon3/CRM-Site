@@ -402,11 +402,13 @@ body{
 	height: 23px;
 	font-size: 14px;
 	/*font-family: Helvetica Neue, Regular;*/
-	
+
 }
 .sideItem{
 	font-size: 14px;
-    margin: 10px;
+    height: 28px;
+    display: flex;
+    align-items: center;
 }
 .sideItemA{
 	color: white;
